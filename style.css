@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+}
+.tabs {
+}
+.tabs-triggers {
+    display: flex;
+}
+
+.tabs-triggers__item {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    flex-grow: 1;
+}
+.tabs-triggers__item--active{
+    background-color: brown;
+}
+
+.tabs-content {
+}
+.tabs-content__item {
+    display: none;
+    background-color: brown;
+    padding: 20px;
+}
+
+.tabs-content__item--active{
+    display: block;
+}
+
